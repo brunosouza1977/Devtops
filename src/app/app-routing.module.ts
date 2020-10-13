@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-<<<<<<< HEAD
 
 const routes: Routes = [{
   path: '',
@@ -21,9 +20,6 @@ const routes: Routes = [{
   loadChildren: () => import('./produtor/busca/busca.module').then(m => m.BuscaModule)
 }
 ];
-=======
-const routes: Routes = [];
->>>>>>> 7884440... initial commit
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

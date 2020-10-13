@@ -123,7 +123,6 @@
           }
         }
       }
-<<<<<<< HEAD
     }
   },
   "defaultProject": "DevTopFront",
@@ -131,8 +130,3 @@
     "analytics": "dda775d9-c66c-4600-a418-1a17d62a2b76"
   }
 }
-=======
-    }},
-  "defaultProject": "DevTopFront"
-}
->>>>>>> 7884440... initial commit
