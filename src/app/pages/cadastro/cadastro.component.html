@@ -1,0 +1,102 @@
+<div class="main">
+  <div>
+    <nav class="navbar navbar-dark bg-dark">
+      <!-- Navbar content -->
+      <h1>Dados Cadastrais</h1>
+    </nav>
+  </div>
+<form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom01">Primeiro nome</label>
+        <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom02">Sobrenome</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom02">CPF</label>
+        <input type="number" class="form-control" id="validationCustom02" placeholder="CPF" required>
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+        <label for="validationCustomUsername">Usuário</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+            </div>
+                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+        <label for="validationCustomUsername">Senha</label>
+            <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">#</span>
+            </div>
+                <input type="password" class="form-control" id="validationCustomUsername" placeholder="senha" aria-describedby="inputGroupPrepend" required>
+            </div>
+        </div>
+        
+      <div class="col-md-2 mb-3">
+        <label for="tipoPerfil">Tipo Perfil</label>
+            <select id="tipoPerfil" class="form-control">
+              <option value="1">Produtor</option>
+              <option value="2" selected>Ator/Artiz</option>
+            </select>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-3 mb-3">
+        <label>Cachê</label>
+        <input type="number" class="form-control" placeholder="R$" required>
+      </div>
+      <div class="col-md-5 mb-3 " >
+        <label class="chek-box-align">Gênero/Obra</label>
+      
+        <div class="col-md-6 mb-2 chek-box-align">
+        <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="defaultInline1">
+            <label class="custom-control-label" for="defaultInline1">Novela</label>
+          </div>
+          
+          <!-- Default inline 2-->
+          <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="defaultInline2">
+            <label class="custom-control-label" for="defaultInline2">Filme</label>
+          </div>
+          
+          <!-- Default inline 3-->
+          <div class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="defaultInline3">
+            <label class="custom-control-label" for="defaultInline3">Série</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 mb-3">
+        <label>Data Disponibilidade</label>
+        <input type="date" class="form-control"required>
+      </div>
+    </div>    
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom03">Cidade</label>
+        <input type="text" class="form-control" id="validationCustom03" placeholder="Cidade" required>
+      </div>
+      <div class="col-md-2 mb-3">
+        <label for="validationCustom04">Estado</label>
+        <input type="text" class="form-control" id="validationCustom04" placeholder="Estado" required>
+      </div>
+      <div class="col-md-2 mb-3">
+        <label for="validationCustom05">CEP</label>
+        <input type="text" class="form-control" id="validationCustom05" placeholder="CEP" required>
+      </div>
+    </div>
+    <button class="btn btn-black" type="submit">Enviar</button>
+  </form>
+</div>
+  

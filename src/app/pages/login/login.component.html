@@ -1,0 +1,32 @@
+ <div class="sidenav">
+    <div class="login-main-text">
+       <h2>Emissora DevTop<br></h2>
+       <p>Faça login ou registre-se para acessar.</p>
+    </div>
+ </div>
+ <div class="main">
+    <div class="col-md-6 col-sm-12">
+       <div class="login-form">
+          <form [formGroup]="basicForm" (ngSubmit)="onSubmit()" novalidate>
+            <div class="form-group">
+               <label for="tipoPerfil">Tipo Perfil</label>
+                   <select id="tipoPerfil" class="form-control">
+                     <option value="1">Produtor</option>
+                     <option value="2" selected>Ator/Artiz</option>
+                   </select>
+             </div>
+             <div class="form-group">
+                <label>Login</label>
+                <input type="text" class="form-control" placeholder="Login">
+             </div>
+             <div class="form-group">
+                <label>Senha</label>
+                <input type="password" class="form-control" placeholder="Senha">
+             </div>
+             <button type="submit" class="btn btn-black">Login</button>
+             <a type="submit" [routerLink]="['../cadastro']" class="btn btn-secondary">Registrar</a>
+          </form>
+       </div>
+    </div>
+ </div>
+  
