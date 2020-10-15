@@ -8,7 +8,7 @@ namespace Emissora.Domain.Entities
                        int cpf,
                        string login,
                        string senha,
-                       bool tipoPerfil,
+                       int tipoPerfil,
                        float cache,
                        int generoObra,
                        DateTime dataDisponibilidade,
@@ -36,7 +36,7 @@ namespace Emissora.Domain.Entities
         public int Cpf { get; private set; }
         public string Login { get; private set; }
         public string Senha { get; private set; }
-        public bool TipoPerfil { get; private set; }
+        public int TipoPerfil { get; private set; }
         public float Cache { get; private set; }
         public int GeneroObra { get; private set; }
         public DateTime DataDisponibilidade { get; private set; }

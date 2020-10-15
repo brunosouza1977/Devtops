@@ -10,7 +10,7 @@ namespace Emissora.Aplication.AppEmissora.Input
         public int Cpf { get; set; }
         public string Login { get; set; }
         public string Senha { get; set; }
-        public bool TipoPerfil { get; set; }
+        public int TipoPerfil { get; set; }
         public float Cache { get; set; }
         public int GeneroObra { get; set; }
         public DateTime DataDisponibilidade { get; set; }
