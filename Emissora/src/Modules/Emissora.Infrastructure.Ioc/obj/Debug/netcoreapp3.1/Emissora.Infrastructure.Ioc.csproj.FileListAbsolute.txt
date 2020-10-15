@@ -1,0 +1,16 @@
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.deps.json
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.csprojAssemblyReference.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.AssemblyInfoInputs.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.AssemblyInfo.cs
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Aplication.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Domain.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Aplication.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Domain.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.csproj.CoreCompileInputs.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.csproj.CopyComplete
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Ioc.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.pdb

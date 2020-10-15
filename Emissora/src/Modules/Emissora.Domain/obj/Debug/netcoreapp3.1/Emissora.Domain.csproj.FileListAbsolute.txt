@@ -1,0 +1,9 @@
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\bin\Debug\netcoreapp3.1\Emissora.Domain.deps.json
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\bin\Debug\netcoreapp3.1\Emissora.Domain.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\bin\Debug\netcoreapp3.1\Emissora.Domain.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\obj\Debug\netcoreapp3.1\Emissora.Domain.csprojAssemblyReference.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\obj\Debug\netcoreapp3.1\Emissora.Domain.AssemblyInfoInputs.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\obj\Debug\netcoreapp3.1\Emissora.Domain.AssemblyInfo.cs
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\obj\Debug\netcoreapp3.1\Emissora.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\obj\Debug\netcoreapp3.1\Emissora.Domain.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Domain\obj\Debug\netcoreapp3.1\Emissora.Domain.pdb

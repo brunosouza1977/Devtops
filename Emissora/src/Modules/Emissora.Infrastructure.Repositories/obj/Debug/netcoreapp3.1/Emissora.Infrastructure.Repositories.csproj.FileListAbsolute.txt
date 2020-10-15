@@ -1,0 +1,12 @@
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.deps.json
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Domain.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Domain.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csprojAssemblyReference.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.AssemblyInfoInputs.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.AssemblyInfo.cs
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CopyComplete
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.pdb

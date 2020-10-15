@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - WebApi", "0 - WebApi", "{BC813E5E-FAA9-4149-AEBD-C2617C6F03B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aplication", "1 - Aplication", "{74A1B1FC-8613-427F-B569-382911ECAD4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{8E282F6C-2C7A-4680-B50B-1610589C4EBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{69EFD4FA-6FDD-4616-9ABB-1626DEEB6AB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Test", "4 - Test", "{A0D1E725-6B7D-4888-8137-D9922AA3989B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Domain", "src\Modules\Emissora.Domain\Emissora.Domain.csproj", "{218A2AD1-3D40-4D15-B69D-1B520FD823EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Infrastructure.Repositories", "src\Modules\Emissora.Infrastructure.Repositories\Emissora.Infrastructure.Repositories.csproj", "{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Repositories", "3.1 - Repositories", "{5EA42DCD-F387-439C-A127-928C14781015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Aplication", "src\Modules\Emissora.Aplication\Emissora.Aplication.csproj", "{DEF4460E-F4AA-4594-83A0-F73B4C146CF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Ioc", "3.2 - Ioc", "{39581CBD-F125-46E8-A30A-3C7F4FF83894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Infrastructure.Ioc", "src\Modules\Emissora.Infrastructure.Ioc\Emissora.Infrastructure.Ioc.csproj", "{B92A60FA-3E6A-4C11-A3DC-94EB9E611675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmissoraBackEnd.Api", "src\Services\EmissoraBackEnd.Api\EmissoraBackEnd.Api.csproj", "{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{218A2AD1-3D40-4D15-B69D-1B520FD823EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218A2AD1-3D40-4D15-B69D-1B520FD823EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218A2AD1-3D40-4D15-B69D-1B520FD823EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218A2AD1-3D40-4D15-B69D-1B520FD823EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF4460E-F4AA-4594-83A0-F73B4C146CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF4460E-F4AA-4594-83A0-F73B4C146CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF4460E-F4AA-4594-83A0-F73B4C146CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF4460E-F4AA-4594-83A0-F73B4C146CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92A60FA-3E6A-4C11-A3DC-94EB9E611675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92A60FA-3E6A-4C11-A3DC-94EB9E611675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92A60FA-3E6A-4C11-A3DC-94EB9E611675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92A60FA-3E6A-4C11-A3DC-94EB9E611675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{218A2AD1-3D40-4D15-B69D-1B520FD823EB} = {8E282F6C-2C7A-4680-B50B-1610589C4EBE}
+		{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0} = {5EA42DCD-F387-439C-A127-928C14781015}
+		{5EA42DCD-F387-439C-A127-928C14781015} = {69EFD4FA-6FDD-4616-9ABB-1626DEEB6AB1}
+		{DEF4460E-F4AA-4594-83A0-F73B4C146CF6} = {74A1B1FC-8613-427F-B569-382911ECAD4C}
+		{39581CBD-F125-46E8-A30A-3C7F4FF83894} = {69EFD4FA-6FDD-4616-9ABB-1626DEEB6AB1}
+		{B92A60FA-3E6A-4C11-A3DC-94EB9E611675} = {39581CBD-F125-46E8-A30A-3C7F4FF83894}
+		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3} = {BC813E5E-FAA9-4149-AEBD-C2617C6F03B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBFE611F-0794-4EE0-9C80-D94B998C492D}
+	EndGlobalSection
+EndGlobal

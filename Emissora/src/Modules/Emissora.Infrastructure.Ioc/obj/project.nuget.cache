@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YxEBy5gx+1aGNOz8R1DTBfy5QGNjcBzU4YwD0GxtetMaUApa3gOepEgAa7lGleOTanoP4UXKMECCekjHw9KF1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vagner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,174 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Emissora.Aplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Emissora.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Emissora.Aplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emissora.Aplication.dll": {}
+        }
+      },
+      "Emissora.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Emissora.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emissora.Domain.dll": {}
+        }
+      },
+      "Emissora.Infrastructure.Ioc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Emissora.Aplication": "1.0.0",
+          "Emissora.Infrastructure.Repositories": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9"
+        },
+        "compile": {
+          "bin/placeholder/Emissora.Infrastructure.Ioc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emissora.Infrastructure.Ioc.dll": {}
+        }
+      },
+      "Emissora.Infrastructure.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Emissora.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Emissora.Infrastructure.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emissora.Infrastructure.Repositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+      "sha512": "8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Emissora.Aplication/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Emissora.Aplication/Emissora.Aplication.csproj",
+      "msbuildProject": "../../Modules/Emissora.Aplication/Emissora.Aplication.csproj"
+    },
+    "Emissora.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Emissora.Domain/Emissora.Domain.csproj",
+      "msbuildProject": "../../Modules/Emissora.Domain/Emissora.Domain.csproj"
+    },
+    "Emissora.Infrastructure.Ioc/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Emissora.Infrastructure.Ioc/Emissora.Infrastructure.Ioc.csproj",
+      "msbuildProject": "../../Modules/Emissora.Infrastructure.Ioc/Emissora.Infrastructure.Ioc.csproj"
+    },
+    "Emissora.Infrastructure.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Emissora.Infrastructure.Repositories/Emissora.Infrastructure.Repositories.csproj",
+      "msbuildProject": "../../Modules/Emissora.Infrastructure.Repositories/Emissora.Infrastructure.Repositories.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Emissora.Aplication >= 1.0.0",
+      "Emissora.Infrastructure.Ioc >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vagner\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj",
+      "projectName": "EmissoraBackEnd.Api",
+      "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj",
+      "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj": {
+              "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj"
+            },
+            "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj": {
+              "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

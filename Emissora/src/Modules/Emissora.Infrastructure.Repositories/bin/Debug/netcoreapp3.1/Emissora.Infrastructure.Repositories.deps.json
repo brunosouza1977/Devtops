@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Emissora.Infrastructure.Repositories/1.0.0": {
+        "dependencies": {
+          "Emissora.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Emissora.Infrastructure.Repositories.dll": {}
+        }
+      },
+      "Emissora.Domain/1.0.0": {
+        "runtime": {
+          "Emissora.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emissora.Infrastructure.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emissora.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
