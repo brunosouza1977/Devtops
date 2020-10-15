@@ -2,19 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Marraia.Notifications.Models;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using Emissora.Aplication.AppEmissora.Input;
 using Emissora.Aplication.AppEmissora.Interface;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+using Marraia.Notifications.Base;
+
+
 
 namespace EmissoraBackEnd.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuarioController : ControllerBase
+    public class UsuarioController : BaseController
     {
         private readonly IUsuarioAppService _usuarioAppService;
-        public UsuarioController(IUsuarioAppService usuarioAppService)
+        public UsuarioController(INotificationHandler<DomainNotification> notification,
+            IUsuarioAppService usuarioAppService)
+            : base(notification)
+
         {
             _usuarioAppService = usuarioAppService;
         }
@@ -26,15 +33,8 @@ namespace EmissoraBackEnd.Api.Controllers
 
         public IActionResult Post([FromBody] UsuarioInput input)
         {
-            try
-            {
-                var item = _usuarioAppService.Insert(input);
-                return Created("", item);
-            }
-            catch (ArgumentException ex)
-            {
-                return BadRequest($"Erro => {ex.Message}");
-            }
+            var item = _usuarioAppService.Insert(input);
+            return CreatedContent("", item);
         }
 
         [HttpGet] //api/hero

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Emissora.Infrastructure.Ioc;
+using Marraia.Notifications.Configurations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -26,6 +27,7 @@ namespace EmissoraBackEnd.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSmartNotification();
             RegisterServices(services);
         }
 

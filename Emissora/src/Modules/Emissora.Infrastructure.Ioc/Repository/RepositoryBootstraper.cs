@@ -11,7 +11,7 @@ namespace Emissora.Infrastructure.Ioc.Repository
     {
         internal void ChildServiceRegister(IServiceCollection services)
         {
-            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
         }
     }
 }

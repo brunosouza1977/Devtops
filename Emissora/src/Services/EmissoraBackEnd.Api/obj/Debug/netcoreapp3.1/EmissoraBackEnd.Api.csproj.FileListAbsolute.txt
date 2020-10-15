@@ -28,3 +28,10 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\Emiss
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.pdb
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.genruntimeconfig.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Marraia.Notifications.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

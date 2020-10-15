@@ -2,6 +2,7 @@
 using Emissora.Aplication.AppEmissora.Interface;
 using Emissora.Domain.Entities;
 using Emissora.Domain.Interfaces.Repositories;
+using Marraia.Notifications.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,9 +12,12 @@ namespace Emissora.Aplication.AppEmissora
     public class UsuarioAppService : IUsuarioAppService
     {
         private readonly IUsuarioRepository _usuarioRepository;
-        public UsuarioAppService(IUsuarioRepository usuarioRepository)
+        private readonly ISmartNotification _notification;
+        public UsuarioAppService(ISmartNotification notification,
+                                 IUsuarioRepository usuarioRepository)
         {
             _usuarioRepository = usuarioRepository;
+            _notification = notification;
         }
         public IEnumerable<Usuario> Get()
         {
@@ -40,7 +44,9 @@ namespace Emissora.Aplication.AppEmissora
                                       input.Cep);
             if (!usuario.IsValid())
             {
-                throw new ArgumentException("Dados Obrigatórios Não foram preenchidos!");
+
+                _notification.NewNotificationBadRequest("Dados Obrigatórios Não foram preenchidos!");
+
             }
 
             _usuarioRepository.Insert(usuario);
