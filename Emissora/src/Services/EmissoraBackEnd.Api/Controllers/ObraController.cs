@@ -37,6 +37,18 @@ namespace EmissoraBackEnd.Api.Controllers
             return CreatedContent("", item);
         }
 
+        [HttpPost]
+        [Route("api/Obra/{Id}")]
+        [ProducesResponseType(typeof(string), 201)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(500)]
+
+        public IActionResult Post([FromBody] int id)
+        {
+            _obraAppService.Delete(id);
+            return Ok("Usuário Excluido com Sucesso!!");
+        }
+
         [HttpGet]
         [ProducesResponseType(typeof(string), 200)]
         [ProducesResponseType(400)]
