@@ -9,4 +9,3 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emisso
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CopyComplete
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.pdb
-C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
