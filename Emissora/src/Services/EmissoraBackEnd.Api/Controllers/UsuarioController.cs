@@ -37,7 +37,20 @@ namespace EmissoraBackEnd.Api.Controllers
             return CreatedContent("", item);
         }
 
-        [HttpGet] //api/hero
+
+        [HttpPost]
+        [Route("{Id}")]
+        [ProducesResponseType(typeof(string), 201)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(500)]
+
+        public IActionResult Post([FromBody] int id)
+        {
+            _usuarioAppService.Delete(id);
+            return Ok("Usuário Excluido com Sucesso!!");
+        }
+
+        [HttpGet]
         [ProducesResponseType(typeof(string), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]

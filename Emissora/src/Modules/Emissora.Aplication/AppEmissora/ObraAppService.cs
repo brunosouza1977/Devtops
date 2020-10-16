@@ -22,6 +22,11 @@ namespace Emissora.Aplication
             _notification = notification;
         }
 
+        public Obra Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Obra> Get()
         {
             throw new NotImplementedException();

@@ -19,6 +19,12 @@ namespace Emissora.Aplication.AppEmissora
             _usuarioRepository = usuarioRepository;
             _notification = notification;
         }
+
+        public Usuario Delete(int id)
+        {
+            return _usuarioRepository.Delete(id);
+        }
+
         public IEnumerable<Usuario> Get()
         {
             return _usuarioRepository.Get();

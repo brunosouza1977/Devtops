@@ -10,5 +10,7 @@ namespace Emissora.Domain.Interfaces.Repositories
         int Insert(Usuario usuario);
         Usuario GetById(int id);
         IEnumerable<Usuario> Get();
+        Usuario Delete(int id);
+
     }
 }

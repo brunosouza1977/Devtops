@@ -106,6 +106,29 @@ namespace Emissora.Infrastructure.Repositories
             }
         }
 
+        public Usuario Delete(int id)
+        {
+            try
+            {
+                using (var con = new SqlConnection(_configuration["ConnectionString"]))
+                {
+                    var sqlCmd = $"DELETE FROM Usuarios WHERE ID={id}";
+
+                    using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
+                    {
+                        cmd.CommandType = CommandType.Text;
+
+                        con.Open();
+                        return default;
+                    }
+                }
+             }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
         public int Insert(Usuario usuario)
         {
             try

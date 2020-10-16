@@ -10,5 +10,6 @@ namespace Emissora.Aplication.AppEmissora.Interface
         Usuario Insert(UsuarioInput usuario);
         Usuario GetById(int id);
         IEnumerable<Usuario> Get();
+        Usuario Delete(int id);
     }
 }

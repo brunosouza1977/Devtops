@@ -2,6 +2,7 @@
 using Emissora.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Text;
 
 namespace Emissora.Aplication.AppEmissora.Interface
@@ -11,5 +12,6 @@ namespace Emissora.Aplication.AppEmissora.Interface
         Obra Insert(ObraInput usuario);
         Obra GetById(int id);
         IEnumerable<Obra> Get();
+        Obra Delete(int id);
     }
 }
