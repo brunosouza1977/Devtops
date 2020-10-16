@@ -20,7 +20,47 @@ namespace Emissora.Infrastructure.Repositories
         }
         public IEnumerable<Usuario> Get()
         {
-            return usuarios.ToList();
+            try
+            {
+                using (var con = new SqlConnection(_configuration["ConnectionString"]))
+                {
+                    var usuarioList =new List<Usuario>();
+                    
+                    var sqlCmd = $"Select * From Usuarios";
+
+                    using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        con.Open();
+                        var reader = cmd.ExecuteReader();
+
+                        while (reader.Read())
+                        {
+                            var usuario = new Usuario(int.Parse(reader["id"].ToString()),
+                                                       reader["Nome"].ToString(),
+                                                       int.Parse(reader["Cpf"].ToString()),
+                                                       reader["Login"].ToString(),
+                                                       reader["Senha"].ToString(),
+                                                       int.Parse(reader["TipoPerfil"].ToString()),
+                                                       float.Parse(reader["Cache"].ToString()),
+                                                       int.Parse(reader["GeneroObra"].ToString()),
+                                                       DateTime.Parse(reader["DataDisponibilidade"].ToString()),
+                                                       reader["Cidade"].ToString(),
+                                                       reader["Estado"].ToString(),
+                                                       int.Parse(reader["Cep"].ToString()),
+                                                       DateTime.Parse(reader["DataCadastro"].ToString()));
+
+                            usuarioList.Add(usuario);
+                        }
+
+                        return usuarioList;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         public Usuario GetById(int id)
