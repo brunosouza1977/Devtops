@@ -7,8 +7,8 @@ namespace Emissora.Domain.Interfaces.Repositories
 {
     public interface IUsuarioRepository
     {
-        void Insert(Usuario usuario);
-        Usuario GetById(Guid id);
+        int Insert(Usuario usuario);
+        Usuario GetById(int id);
         IEnumerable<Usuario> Get();
     }
 }

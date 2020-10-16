@@ -24,13 +24,14 @@ namespace Emissora.Aplication.AppEmissora
             return _usuarioRepository.Get();
         }
 
-        public Usuario GetById(Guid id)
+        public Usuario GetById(int id)
         {
             return _usuarioRepository.GetById(id);
         }
 
-        public Guid Insert(UsuarioInput input)
+        public Usuario Insert(UsuarioInput input)
         {
+
             var usuario = new Usuario(input.Nome,
                                       input.Cpf,
                                       input.Login,
@@ -49,8 +50,9 @@ namespace Emissora.Aplication.AppEmissora
 
             }
 
-            _usuarioRepository.Insert(usuario);
-            return usuario.id;
+           var id = _usuarioRepository.Insert(usuario);
+            usuario.SetId(id);
+            return usuario;
         }
     }
 }

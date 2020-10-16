@@ -53,7 +53,7 @@ namespace EmissoraBackEnd.Api.Controllers
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public IActionResult Get([FromRoute] Guid id)
+        public IActionResult Get([FromRoute] int id)
         {
             return Ok(_usuarioAppService.Get());
         }

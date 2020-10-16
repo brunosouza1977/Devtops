@@ -1,9 +1,39 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Emissora.Domain.Entities
 {
     public class Usuario
     {
+        public Usuario(
+                      int id,
+                      string nome,
+                      int cpf,
+                      string login,
+                      string senha,
+                      int tipoPerfil,
+                      float cache,
+                      int generoObra,
+                      DateTime dataDisponibilidade,
+                      string cidade,
+                      string estado,
+                      int cep,
+                      DateTime datacadastro)
+        {
+            SetId(id);
+            Nome = nome;
+            Cpf = cpf;
+            Login = login;
+            Senha = senha;
+            TipoPerfil = tipoPerfil;
+            Cache = cache;
+            GeneroObra = generoObra;
+            DataDisponibilidade = dataDisponibilidade;
+            Cidade = cidade;
+            Estado = estado;
+            Cep = cep;
+            DataCadastro = datacadastro;
+        }
         public Usuario(string nome,
                        int cpf,
                        string login,
@@ -16,7 +46,6 @@ namespace Emissora.Domain.Entities
                        string estado,
                        int cep)
         {
-            id = new Guid();
             Nome = nome;
             Cpf = cpf;
             Login = login;
@@ -31,7 +60,7 @@ namespace Emissora.Domain.Entities
             DataCadastro = DateTime.Now;
         }
 
-        public Guid id { get; private set; }
+        public int Id { get; private set; }
         public string Nome { get; private set; }
         public int Cpf { get; private set; }
         public string Login { get; private set; }
@@ -54,6 +83,13 @@ namespace Emissora.Domain.Entities
             }
 
             return validar;
+
         }
+
+        public void SetId(int id)
+        {
+            Id = id;
+        }
+
     }
 }

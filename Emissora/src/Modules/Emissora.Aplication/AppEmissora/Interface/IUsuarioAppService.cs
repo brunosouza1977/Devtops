@@ -7,8 +7,8 @@ namespace Emissora.Aplication.AppEmissora.Interface
 {
     public interface IUsuarioAppService
     {
-        Guid Insert(UsuarioInput usuario);
-        Usuario GetById(Guid id);
+        Usuario Insert(UsuarioInput usuario);
+        Usuario GetById(int id);
         IEnumerable<Usuario> Get();
     }
 }
