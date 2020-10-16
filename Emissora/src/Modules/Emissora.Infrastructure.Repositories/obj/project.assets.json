@@ -524,19 +524,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vagner\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
+      "projectUniqueName": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
       "projectName": "Emissora.Infrastructure.Repositories",
-      "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
-      "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\obj\\",
+      "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
+      "packagesPath": "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\",
+      "outputPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno Melo de Souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -549,8 +549,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
-              "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj"
+            "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
+              "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj"
             }
           }
         }
