@@ -148,7 +148,7 @@ namespace Emissora.Infrastructure.Repositories
                                                 Cidade,
                                                 Estado,
                                                 Cep,
-                                                DataCadastro); Select scope identity(); 
+                                                DataCadastro) 
                                     VALUES (@nome, 
                                             @cpf,
                                             @login, 
@@ -160,7 +160,7 @@ namespace Emissora.Infrastructure.Repositories
                                             @cidade,
                                             @estado,
                                             @cep,
-                                            @datacadastro)";
+                                            @datacadastro); Select scope_identity();";
 
                     using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
                     {
@@ -169,9 +169,11 @@ namespace Emissora.Infrastructure.Repositories
                         cmd.Parameters.AddWithValue("nome", usuario.Nome);
                         cmd.Parameters.AddWithValue("cpf", usuario.Cpf);
                         cmd.Parameters.AddWithValue("login", usuario.Login);
+                        cmd.Parameters.AddWithValue("senha", usuario.Senha);
                         cmd.Parameters.AddWithValue("tipoperfil", usuario.TipoPerfil);
                         cmd.Parameters.AddWithValue("cache", usuario.Cache);
                         cmd.Parameters.AddWithValue("generoobra", usuario.GeneroObra);
+                        cmd.Parameters.AddWithValue("datadisponibilidade", usuario.DataDisponibilidade);
                         cmd.Parameters.AddWithValue("cidade", usuario.Cidade);
                         cmd.Parameters.AddWithValue("estado", usuario.Estado);
                         cmd.Parameters.AddWithValue("cep", usuario.Cep);
