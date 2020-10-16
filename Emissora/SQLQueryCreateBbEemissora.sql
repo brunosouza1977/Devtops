@@ -33,7 +33,9 @@ Create Table dbo.Usuarios (
                     id int identity (1,1) not null,
                     Titulo int not null,
                     idGenero int not null,
-					Orcamento float not null
+					Orcamento float not null,
+					dataInicio DateTime not null,
+					dataFim DateTime not null,
                     )
 
 	Alter Table dbo.Obra
