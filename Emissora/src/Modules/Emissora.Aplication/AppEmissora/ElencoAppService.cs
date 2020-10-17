@@ -21,6 +21,11 @@ namespace Emissora.Aplication.AppEmissora
             _notification = notification;
         }
 
+        public Elenco Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Elenco> Get()
         {
             throw new NotImplementedException();
@@ -32,11 +37,6 @@ namespace Emissora.Aplication.AppEmissora
         }
 
         public Elenco Insert(Elencoinput usuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        Elenco IElencoAppServices.Insert(Elencoinput usuario)
         {
             throw new NotImplementedException();
         }

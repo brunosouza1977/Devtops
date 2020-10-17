@@ -10,9 +10,12 @@ using System.Text;
 namespace Emissora.Infrastructure.Repositories
 {
     public class ElencoRepository : IElencoRepository
-
     {
         private readonly IConfiguration _configuration;
+        public ElencoRepository(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         public IEnumerable<Elenco> Get()
         {
 
@@ -33,8 +36,8 @@ namespace Emissora.Infrastructure.Repositories
                         while (reader.Read())
                         {
                             var elenco = new Elenco(int.Parse(reader["id"].ToString()),
-                                                reader["idAtor"].ToString(),
-                                                float.Parse(reader["idObra"].ToString()));
+                                                int.Parse(reader["idAtor"].ToString()),
+                                                int.Parse(reader["idObra"].ToString()));
 
                             elencolist.Add(elenco);
                         }
@@ -66,8 +69,8 @@ namespace Emissora.Infrastructure.Repositories
                         while (reader.Read())
                         {
                             var elenco = new Elenco(int.Parse(reader["id"].ToString()),
-                                                reader["idAtor"].ToString(),
-                                                float.Parse(reader["idObra"].ToString()));
+                                                    int.Parse(reader["idAtor"].ToString()),
+                                                    int.Parse(reader["idObra"].ToString()));
 
                             return elenco;
                         }

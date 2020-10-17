@@ -17,15 +17,13 @@ namespace EmissoraBackEnd.Api.Controllers
     [ApiController]
     public class ElencoController : BaseController
     {
-        private readonly IElencoAppServices elencoAppService;
+        private readonly IElencoAppServices _elencoAppService;
 
         public ElencoController(INotificationHandler<DomainNotification> notification,
-            IElencoAppServices ElencoAppService)
+            IElencoAppServices elencoAppService)
             : base(notification)
-
         {
-            IElencoAppServices elencoAppService = null;
-            this.elencoAppService = elencoAppService;
+            _elencoAppService = elencoAppService;
         }
 
         [HttpPost]
@@ -35,7 +33,7 @@ namespace EmissoraBackEnd.Api.Controllers
 
         public IActionResult Post([FromBody] Elencoinput input)
         {
-            var item = elencoAppService.Insert(input);
+            var item = _elencoAppService.Insert(input);
 
             return CreatedContent("", item);
         }
@@ -47,7 +45,7 @@ namespace EmissoraBackEnd.Api.Controllers
         [ProducesResponseType(500)]
         public IActionResult Get()
         {
-            return Ok(elencoAppService.Get());
+            return Ok(_elencoAppService.Get());
         }
 
         [HttpGet]
@@ -58,7 +56,7 @@ namespace EmissoraBackEnd.Api.Controllers
         [ProducesResponseType(500)]
         public IActionResult Get([FromRoute] int id)
         {
-            return Ok(elencoAppService.Get());
+            return Ok(_elencoAppService.Get());
         }
 
     }

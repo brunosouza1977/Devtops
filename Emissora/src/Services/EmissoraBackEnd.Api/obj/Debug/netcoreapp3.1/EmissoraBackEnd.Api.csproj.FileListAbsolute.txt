@@ -43,3 +43,4 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\Emiss
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Castle.Core.dll

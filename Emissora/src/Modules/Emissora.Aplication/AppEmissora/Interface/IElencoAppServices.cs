@@ -1,10 +1,14 @@
-﻿using System;
+﻿using Emissora.Aplication.AppEmissora.Input;
+using Emissora.Domain.Entities;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Emissora.Aplication.AppEmissora.Interface
 {
-    class IElencoAppServices
+     public interface IElencoAppServices
     {
+        Elenco Insert(Elencoinput usuario);
+        Elenco GetById(int id);
+        IEnumerable<Elenco> Get();
+        Elenco Delete(int id);
     }
 }

@@ -1,6 +1,5 @@
 ﻿using Emissora.Aplication.AppEmissora.Input;
 using Emissora.Domain.Entities;
-using System;
 using System.Collections.Generic;
 
 namespace Emissora.Aplication.AppEmissora.Interface

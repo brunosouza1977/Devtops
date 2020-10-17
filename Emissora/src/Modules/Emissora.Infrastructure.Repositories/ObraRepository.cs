@@ -16,7 +16,6 @@ namespace Emissora.Infrastructure.Repositories
         {
             _configuration = configuration;
         }
-
         public IEnumerable<Obra> Get()
         {
             try

@@ -6,24 +6,17 @@ namespace Emissora.Domain.Entities
 {
     public class Elenco
     {
-        public int Id { get; set; }
-        public int Idator { get; set; }
-        public int Idobra { get; set; }
-
-        public Elenco()
-        {
-
-        }
-
-        public Elenco(int id, int idator, int idobra)
+        public Elenco(int id,
+                      int idator,
+                      int idobra)
         {
             Id = id;
             Idator = idator;
             Idobra = idobra;
         }
+        public int Id { get; private set; }
+        public int Idator { get; private set; }
+        public int Idobra { get; private set; }
 
-        public Elenco(int v1, string v2, float v3)
-        {
-        }
     }
 }
