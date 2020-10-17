@@ -89,7 +89,11 @@
       </div>
       <div class="col-md-2 mb-3">
         <label for="validationCustom04">Estado</label>
-        <input type="text" class="form-control" id="validationCustom04" placeholder="Estado" required>
+        <input type="text" class="form-control" [(ngModel)]="list.estados" id="validationCustom04" placeholder="Estado" required>
+        <select class="form-control" id="estado">
+          <option [ngValue]="estados" *ngFor="let estado of estados"></option>
+          <option>{{ estados.nome }}</option>
+        </select>
       </div>
       <div class="col-md-2 mb-3">
         <label for="validationCustom05">CEP</label>
