@@ -69,7 +69,7 @@ namespace Emissora.Infrastructure.Repositories
             {
                 using (var con = new SqlConnection(_configuration["ConnectionString"]))
                 {
-                    var sqlCmd = $"Select * From Usuarios Where Id ={id} ";
+                    var sqlCmd = $"Select * From Usuarios Where Id={id}";
 
                     using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
                     {

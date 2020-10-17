@@ -38,7 +38,7 @@ namespace EmissoraBackEnd.Api.Controllers
         }
 
         [HttpPost]
-        [Route("api/Obra/{Id}")]
+        [Route("{Id}")]
         [ProducesResponseType(typeof(string), 201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]

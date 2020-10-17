@@ -24,7 +24,6 @@ namespace Emissora.Domain.Entities
             Nome = nome;
             Cpf = cpf;
             Login = login;
-            Senha = senha;
             TipoPerfil = tipoPerfil;
             Cache = cache;
             GeneroObra = generoObra;
