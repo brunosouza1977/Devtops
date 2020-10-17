@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
 namespace EmissoraBackEnd.Api
 {
@@ -28,6 +29,22 @@ namespace EmissoraBackEnd.Api
         {
             services.AddControllers();
             services.AddSmartNotification();
+
+            services.AddSwaggerGen(c => { 
+                        
+                c.SwaggerDoc("v1",
+                    new OpenApiInfo {
+                        Title = "EmissoraDevTop",
+                        Version = "v1",
+                        Description = "Api de Cadsatro de Atores/Atrizes",
+                        Contact = new OpenApiContact
+                        {
+                            Name = "Vagner Santos, Bruno",
+                            Url = new Uri("https://github.com/brunosouza1977/Devtops")
+                        }
+                    });
+            });
+
             RegisterServices(services);
         }
 
@@ -46,6 +63,11 @@ namespace EmissoraBackEnd.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "EmissoraDevTop");
             });
         }
 

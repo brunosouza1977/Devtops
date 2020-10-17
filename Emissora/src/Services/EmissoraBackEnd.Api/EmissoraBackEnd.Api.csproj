@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Modules\Emissora.Aplication\Emissora.Aplication.csproj" />
     <ProjectReference Include="..\..\Modules\Emissora.Infrastructure.Ioc\Emissora.Infrastructure.Ioc.csproj" />
   </ItemGroup>

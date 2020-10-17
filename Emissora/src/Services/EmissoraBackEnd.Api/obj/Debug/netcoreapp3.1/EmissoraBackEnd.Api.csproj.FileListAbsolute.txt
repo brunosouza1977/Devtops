@@ -19,8 +19,6 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\Emiss
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.csprojAssemblyReference.cache
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.AssemblyInfoInputs.cache
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.AssemblyInfo.cs
-C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.csproj.CoreCompileInputs.cache
-C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.RazorTargetAssemblyInfo.cache
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.csproj.CopyComplete
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\staticwebassets\EmissoraBackEnd.Api.StaticWebAssets.Manifest.cache
@@ -28,7 +26,6 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\Emiss
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.pdb
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.genruntimeconfig.cache
-C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Marraia.Notifications.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
@@ -44,3 +41,10 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\Emiss
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.csproj.CoreCompileInputs.cache
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.MvcApplicationPartsAssemblyInfo.cache
