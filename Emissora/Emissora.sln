@@ -13,19 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Test", "4 - Test", "{A0D1E725-6B7D-4888-8137-D9922AA3989B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Domain", "src\Modules\Emissora.Domain\Emissora.Domain.csproj", "{218A2AD1-3D40-4D15-B69D-1B520FD823EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emissora.Domain", "src\Modules\Emissora.Domain\Emissora.Domain.csproj", "{218A2AD1-3D40-4D15-B69D-1B520FD823EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Infrastructure.Repositories", "src\Modules\Emissora.Infrastructure.Repositories\Emissora.Infrastructure.Repositories.csproj", "{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emissora.Infrastructure.Repositories", "src\Modules\Emissora.Infrastructure.Repositories\Emissora.Infrastructure.Repositories.csproj", "{7C528D39-47E1-4B7F-8DD4-1BE76769E7A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Repositories", "3.1 - Repositories", "{5EA42DCD-F387-439C-A127-928C14781015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Aplication", "src\Modules\Emissora.Aplication\Emissora.Aplication.csproj", "{DEF4460E-F4AA-4594-83A0-F73B4C146CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emissora.Aplication", "src\Modules\Emissora.Aplication\Emissora.Aplication.csproj", "{DEF4460E-F4AA-4594-83A0-F73B4C146CF6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Ioc", "3.2 - Ioc", "{39581CBD-F125-46E8-A30A-3C7F4FF83894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Infrastructure.Ioc", "src\Modules\Emissora.Infrastructure.Ioc\Emissora.Infrastructure.Ioc.csproj", "{B92A60FA-3E6A-4C11-A3DC-94EB9E611675}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emissora.Infrastructure.Ioc", "src\Modules\Emissora.Infrastructure.Ioc\Emissora.Infrastructure.Ioc.csproj", "{B92A60FA-3E6A-4C11-A3DC-94EB9E611675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmissoraBackEnd.Api", "src\Services\EmissoraBackEnd.Api\EmissoraBackEnd.Api.csproj", "{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmissoraBackEnd.Api", "src\Services\EmissoraBackEnd.Api\EmissoraBackEnd.Api.csproj", "{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissora.Tests", "src\Modules\Emissora.Tests\Emissora.Tests.csproj", "{055AE422-B942-4B9E-97C6-780C60F88ECB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055AE422-B942-4B9E-97C6-780C60F88ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055AE422-B942-4B9E-97C6-780C60F88ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055AE422-B942-4B9E-97C6-780C60F88ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055AE422-B942-4B9E-97C6-780C60F88ECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{39581CBD-F125-46E8-A30A-3C7F4FF83894} = {69EFD4FA-6FDD-4616-9ABB-1626DEEB6AB1}
 		{B92A60FA-3E6A-4C11-A3DC-94EB9E611675} = {39581CBD-F125-46E8-A30A-3C7F4FF83894}
 		{DCBA8FA1-ABA1-4660-A388-3F1B7B4534F3} = {BC813E5E-FAA9-4149-AEBD-C2617C6F03B3}
+		{055AE422-B942-4B9E-97C6-780C60F88ECB} = {A0D1E725-6B7D-4888-8137-D9922AA3989B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FBFE611F-0794-4EE0-9C80-D94B998C492D}
