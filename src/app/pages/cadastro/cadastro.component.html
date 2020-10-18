@@ -10,10 +10,16 @@
       <div class="col-md-4 mb-3">
         <label for="validationCustom01">Nome</label>
         <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" formControlName="nome" required>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!nome.pristine && nome.errors" class="alert alert-danger">Campo Nome é Obrigatório</span>
+        </div>
        </div>
       <div class="col-md-4 mb-3">
         <label for="validationCustom02">CPF</label>
         <input type="number" class="form-control" id="validationCustom02" placeholder="CPF" formControlName="cpf" required>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!cpf.pristine && cpf.errors" class="alert alert-danger">Campo CPF é Obrigatório</span>
+        </div>
       </div>
     </div>
     <div class="form-row">
@@ -24,6 +30,9 @@
                 <span class="input-group-text" id="inputGroupPrepend">@</span>
             </div>
                 <input type="text" class="form-control" id="validationCustomUsername" placeholder="Usuário" formControlName="login" aria-describedby="inputGroupPrepend" required>
+                <div clas="col-md-4 mb-3" style="margin-top: 12px;">
+                  <span *ngIf="!login.pristine && login.errors" class="alert alert-danger">Campo Usuário é Obrigatório</span>
+                </div>
             </div>
         </div>
 
@@ -34,6 +43,9 @@
                 <span class="input-group-text" id="inputGroupPrepend">#</span>
             </div>
                 <input type="password" class="form-control" id="validationCustomUsername" placeholder="senha" formControlName="senha" aria-describedby="inputGroupPrepend" required>
+                <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+                  <span *ngIf="!senha.pristine && senha.errors" class="alert alert-danger">Campo Senha é Obrigatório</span>
+                </div>
             </div>
         </div>
         
@@ -43,42 +55,63 @@
               <option value="1">Produtor</option>
               <option value="2" selected>Ator/Artiz</option>
             </select>
+            <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+              <span *ngIf="!tipoPerfil.pristine && tipoPerfil.errors" class="alert alert-danger">Campo TipoPerfil é Obrigatório</span>
+            </div>
       </div>
     </div>
     <div class="form-row">
       <div class="col-md-3 mb-3">
         <label>Cachê</label>
-        <input type="number" class="form-control" placeholder="R$ 0,00" formControlName="cache"required>
+        <input type="number" class="form-control" placeholder="R$ 0,00" formControlName="cache" required>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!cache.pristine && cache.errors" class="alert alert-danger">Campo Cachê é Obrigatório</span>
+        </div>
       </div>
       <div class="col-md-5 mb-3 " >
         <label class="chek-box-align">Gênero/Obra</label>
-        <select id="generoobra" class="form-control" formControlName="tipoPerfil">
+        <select id="generoobra" class="form-control" formControlName="generoobra">
           <option value="1">Novela</option>
           <option value="2">Filme</option>
           <option value="3" >Serie</option>
         </select>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!generoobra.pristine && generoobra.errors" class="alert alert-danger">Campo Gênero/Obra é Obrigatório</span>
+        </div>
       </div>
         
       <div class="col-md-2 mb-3">
         <label>Data Disponibilidade</label>
         <input type="date" formControlName="dataDisponibilidade" class="form-control"required>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!dataDisponibilidade.pristine && dataDisponibilidade.errors" class="alert alert-danger">Campo Data Disponibilidade é Obrigatório</span>
+        </div>
       </div>
     </div>    
     <div class="form-row">
       <div class="col-md-6 mb-3">
         <label for="validationCustom03">Cidade</label>
         <input type="text" class="form-control" id="validationCustom03" formControlName="cidade" placeholder="Cidade" required>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!cidade.pristine && cidade.errors" class="alert alert-danger">Campo Cidade é Obrigatório</span>
+        </div>
       </div>
       <div class="col-md-2 mb-3">
         <label for="validationCustom04">Estado</label>
         <input type="text" class="form-control" id="validationCustom04" formControlName="estado" placeholder="Estado" required>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!estado.pristine && estado.errors" class="alert alert-danger">Campo Estado é Obrigatório</span>
+        </div>
       </div>
       <div class="col-md-2 mb-3">
         <label for="validationCustom05">CEP</label>
         <input type="number" class="form-control" id="validationCustom05" placeholder="CEP" formControlName="cep" required>
+        <div clas="col-md-4 mb-3" style="margin-top: 15px;">
+          <span *ngIf="!cep.pristine && cep.errors" class="alert alert-danger">Campo CEP é Obrigatório</span>
+        </div>
       </div>
     </div>
-    <button class="btn btn-black" type="submit">Enviar</button>
+    <button class="btn btn-black" [disabled]="basicForm.invalid" type="submit">Enviar</button>
   </form>
 </div>
   

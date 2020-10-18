@@ -6,10 +6,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalSucessoComponent } from './modal-sucesso/modal-sucesso.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalSucessoComponent
   ],
   imports: [
     BrowserModule,
@@ -18,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [CadastroUsuarioService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[ModalSucessoComponent]
 })
 export class AppModule { }

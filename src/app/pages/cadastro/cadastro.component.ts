@@ -1,5 +1,6 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { CadastroUsuarioService } from './../../../Services/cadastroUsuarioService/cadastro-usuario.service';
 import { Usuarios } from './../../../Services/models/usuarios';
 import  estados from '../../Shared/Mocks/estados.js';
@@ -17,7 +18,7 @@ export class CadastroComponent implements OnInit {
     estado: {}
   }
 
-  constructor(private _usuarioService: CadastroUsuarioService) {}
+  constructor(private _usuarioService: CadastroUsuarioService, private router: Router) {}
 
   ngOnInit(): void {
     this.basicForm = new FormGroup({
@@ -33,25 +34,43 @@ export class CadastroComponent implements OnInit {
       estado: new FormControl('', Validators.required),
       cep: new FormControl('', Validators.required)
     })
+
   }
+    get nome (){
+      return this.basicForm.get('nome');
+    }
+    
+    get cpf (){
+      return this.basicForm.get('cpf');
+    }
+    get login (){
+      return this.basicForm.get('login');
+    }
+    get senha (){
+      return this.basicForm.get('senha');
+    }
+    get tipoPerfil (){
+      return this.basicForm.get('tipoPerfil');
+    }
+    get cache (){
+      return this.basicForm.get('cache');
+    }
+    get generoobra (){
+      return this.basicForm.get('generoobra');
+    }
+    get dataDisponibilidade (){
+      return this.basicForm.get('dataDisponibilidade');
+    }
 
-  /**
-   * core.js:4352 ERROR Error: formGroup expects a FormGroup instance. Please pass one in.
-
-       Example:
-
-       
-    <div [formGroup]="myGroup">
-      <input formControlName="firstName">
-    </div>
-
-    In your class:
-
-    this.myGroup = new FormGroup({
-       firstName: new FormControl()
-    });
-   */
-
+    get cidade (){
+      return this.basicForm.get('cidade');
+    }
+    get estado (){
+      return this.basicForm.get('estado');
+    }
+    get cep (){
+      return this.basicForm.get('cep');
+    }
   onSubmit(){
     var usuario = new Usuarios(this.basicForm.controls.nome.value,
                                Number(this.basicForm.controls.cpf.value),
@@ -71,6 +90,7 @@ export class CadastroComponent implements OnInit {
                                 .subscribe(
                                   (response: any) =>{
                                     alert("Usuário Cadastrado com Sucesso!");
+                                    this.router.navigate(['/login']);
                                   },
                                   (error: any) =>{
                                     alert("Erro ao Inserir Usuario");

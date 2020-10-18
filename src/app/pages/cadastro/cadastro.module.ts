@@ -13,7 +13,7 @@ import { CadastroComponent } from './cadastro.component';
     CadastroRoutingModule,
     FormsModuleAngular,
     ReactiveFormsModule
-  ],
+    ],
   exports : [CadastroComponent]
 })
 export class CadastroModule { }
