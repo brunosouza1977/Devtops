@@ -34,9 +34,14 @@ namespace Emissora.Infrastructure.Repositories
 
                         while (reader.Read())
                         {
-                            var obra = new Obra(int.Parse(reader["id"].ToString()),
-                                                reader["NomeObra"].ToString(),
-                                                float.Parse(reader["Orcamento"].ToString()));
+                            var obra = new Obra(
+                                int.Parse(reader["id"].ToString()),
+                                reader["NomeObra"].ToString(),
+                                int.Parse(reader["Orcamento"].ToString()),
+                                int.Parse(reader["idGenero"].ToString()),
+                                DateTime.Parse(reader["dataInicio"].ToString()),
+                                DateTime.Parse(reader["dataFim"].ToString()),
+                                DateTime.Parse(reader["dataCadastro"].ToString()));
 
                             obraList.Add(obra);
                         }
@@ -69,7 +74,11 @@ namespace Emissora.Infrastructure.Repositories
                         {
                             var obra = new Obra(int.Parse(reader["id"].ToString()),
                                                 reader["NomeObra"].ToString(),
-                                                float.Parse(reader["Orcamento"].ToString()));
+                                                int.Parse(reader["Orcamento"].ToString()),
+                                                int.Parse(reader["idGenero"].ToString()),
+                                                DateTime.Parse(reader["dataInicio"].ToString()),
+                                                DateTime.Parse(reader["dataFim"].ToString()),
+                                                DateTime.Parse(reader["dataCadastro"].ToString()));
 
                             return obra;
                         }
@@ -116,9 +125,15 @@ namespace Emissora.Infrastructure.Repositories
                 {
                     var sqlCmd = @"INSERT INTO 
                                     Obra ( NomeObra,
-                                           Orcamento); Select scope identity(); 
+                                           Orcamento,
+                                           IdGenero,
+                                           DataInico,
+                                           DataFim); Select scope identity(); 
                                     VALUES (@nome, 
-                                            @orcamento)";
+                                            @orcamento,
+                                            @idGenero,
+                                            @dataInicio,
+                                            @dataFim)";
 
                     using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
                     {
@@ -126,6 +141,9 @@ namespace Emissora.Infrastructure.Repositories
 
                         cmd.Parameters.AddWithValue("NomeObra", obra.NomeObra);
                         cmd.Parameters.AddWithValue("Orcamento", obra.Orcamento);
+                        cmd.Parameters.AddWithValue("idGenero", obra.IdGenero);
+                        cmd.Parameters.AddWithValue("dataInicio", obra.DataInicio);
+                        cmd.Parameters.AddWithValue("dataFim", obra.DataFim);
                         con.Open();
                         var id = cmd.ExecuteScalar();
                         return int.Parse(id.ToString());

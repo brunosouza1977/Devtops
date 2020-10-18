@@ -48,6 +48,9 @@ namespace Emissora.Tests.Application
             var retorno = usuarioAppService.Get();
 
 
+
+
+
             //assert
             retorno.Should().HaveCount(1);
 

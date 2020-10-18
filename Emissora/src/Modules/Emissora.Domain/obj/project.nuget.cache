@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "myRV1uJ004RQMpSFWPiU/DDQFew/F58S+gegbo5mc0UWWvC54zWhFg/0zCV+lXglls4ncmM1gEIyDUAx5k/MSA==",
+  "dgSpecHash": "wVUsd9geAQSk+SbTVx31gWG4fkDSelXyp39Z1ud887mFryiaQcRYtjnqb77OK5+JKTUjCG49rd8aMG1Phy0VnA==",
   "success": true,
-  "projectFilePath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -174,7 +174,7 @@ namespace Emissora.Infrastructure.Repositories
                         cmd.Parameters.AddWithValue("cache", usuario.Cache);
                         cmd.Parameters.AddWithValue("generoobra", usuario.GeneroObra);
                         cmd.Parameters.AddWithValue("datadisponibilidade", usuario.DataDisponibilidade);
-                        cmd.Parameters.AddWithValue("cidade", usuario.Cidade);
+                        cmd.Parameters.AddWithValue("cidade", usuario.Cidade);  
                         cmd.Parameters.AddWithValue("estado", usuario.Estado);
                         cmd.Parameters.AddWithValue("cep", usuario.Cep);
                         cmd.Parameters.AddWithValue("datacadastro", usuario.DataCadastro);

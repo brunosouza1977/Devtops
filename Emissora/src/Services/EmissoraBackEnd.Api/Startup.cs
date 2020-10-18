@@ -30,6 +30,15 @@ namespace EmissoraBackEnd.Api
             services.AddControllers();
             services.AddSmartNotification();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder =>
+                    builder.AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader());
+            });
+
             services.AddSwaggerGen(c => { 
                         
                 c.SwaggerDoc("v1",
@@ -57,7 +66,7 @@ namespace EmissoraBackEnd.Api
             }
 
             app.UseRouting();
-
+            app.UseCors("CorsPolicy");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

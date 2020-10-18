@@ -97,3 +97,4 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\Emiss
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\obj\Debug\netcoreapp3.1\EmissoraBackEnd.Api.MvcApplicationPartsAssemblyInfo.cache
 >>>>>>> a3729422dab59cd2c4ae760debf9cc27f9c9f77a
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Services\EmissoraBackEnd.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll

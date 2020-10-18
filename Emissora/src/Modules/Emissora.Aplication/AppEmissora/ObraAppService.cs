@@ -37,9 +37,28 @@ namespace Emissora.Aplication
             throw new NotImplementedException();
         }
 
-        public Obra Insert(ObraInput usuario)
+        public Obra Insert(ObraInput input)
         {
+
             throw new NotImplementedException();
+           
+           /* var obra = new Obra(input.NomeObra,
+                                input.Orcamento,
+                                input.DataInicio,
+                                input.DataFim,
+                                input.DataCadstro);
+
+            if (!obra.IsValid())
+            {
+
+                _notification.NewNotificationBadRequest("Dados Obrigatórios Não foram preenchidos!");
+
+            }
+
+            var id = _obraRepository.Insert(obra);
+            obra.SetId(id);
+            return obra;
+           */
         }
     }
 }

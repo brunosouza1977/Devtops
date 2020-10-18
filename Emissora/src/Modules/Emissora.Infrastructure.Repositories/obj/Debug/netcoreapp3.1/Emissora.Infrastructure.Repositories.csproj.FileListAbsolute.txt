@@ -9,7 +9,6 @@ C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emisso
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CopyComplete
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.dll
 C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.pdb
-C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
 C:\ws-vs2019\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.deps.json
 C:\ws-vs2019\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.dll
 C:\ws-vs2019\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.pdb
@@ -22,3 +21,4 @@ C:\ws-vs2019\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\
 C:\ws-vs2019\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CopyComplete
 C:\ws-vs2019\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.dll
 C:\ws-vs2019\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.pdb
+C:\Users\Vagner\source\repos\EmissoraDevTop\Emissora\Emissora\src\Modules\Emissora.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\Emissora.Infrastructure.Repositories.csproj.CoreCompileInputs.cache

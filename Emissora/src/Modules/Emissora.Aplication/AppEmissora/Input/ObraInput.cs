@@ -6,8 +6,10 @@ namespace Emissora.Aplication.AppEmissora.Input
 {
     public class ObraInput
     {
-        public int Id { get; set; }
         public string NomeObra { get; set; }
-        public float Orcamento { get; set; }
+        public int Orcamento { get; set; }
+        public DateTime DataInicio { get; set; }
+        public DateTime DataFim { get; set; }
+        public DateTime DataCadstro { get; set; }
     }
 }

@@ -6,7 +6,7 @@ namespace Emissora.Aplication.AppEmissora.Interface
 {
     public interface IObraAppService
     {
-        Obra Insert(ObraInput usuario);
+        Obra Insert(ObraInput obra);
         Obra GetById(int id);
         IEnumerable<Obra> Get();
         Obra Delete(int id);

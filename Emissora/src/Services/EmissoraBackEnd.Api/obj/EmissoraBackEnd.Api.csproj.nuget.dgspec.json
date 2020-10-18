@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj": {}
+    "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj": {}
   },
   "projects": {
-    "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj": {
+    "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj",
+        "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj",
         "projectName": "Emissora.Aplication",
-        "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj",
-        "packagesPath": "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\",
-        "outputPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\obj\\",
+        "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj",
+        "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno Melo de Souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
-                "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj"
+              "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj"
               }
             }
           }
@@ -66,17 +66,17 @@
         }
       }
     },
-    "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
+    "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
         "projectName": "Emissora.Domain",
-        "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
-        "packagesPath": "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\",
-        "outputPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
+        "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno Melo de Souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,17 +118,17 @@
         }
       }
     },
-    "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj": {
+    "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj",
+        "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj",
         "projectName": "Emissora.Infrastructure.Ioc",
-        "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj",
-        "packagesPath": "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\",
-        "outputPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\obj\\",
+        "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj",
+        "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno Melo de Souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,11 +141,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj": {
-                "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj"
+              "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj": {
+                "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj"
               },
-              "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj": {
-                "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj"
+              "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj"
               }
             }
           }
@@ -183,17 +183,17 @@
         }
       }
     },
-    "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj": {
+    "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
         "projectName": "Emissora.Infrastructure.Repositories",
-        "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
-        "packagesPath": "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\",
-        "outputPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\obj\\",
+        "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\Emissora.Infrastructure.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno Melo de Souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -206,8 +206,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
-                "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj"
+              "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj"
               }
             }
           }
@@ -221,6 +221,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "Castle.Core": {
               "target": "Package",
               "version": "[4.4.1, )"
@@ -253,17 +257,17 @@
         }
       }
     },
-    "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj": {
+    "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj",
         "projectName": "EmissoraBackEnd.Api",
-        "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj",
-        "packagesPath": "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\",
-        "outputPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\obj\\",
+        "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\EmissoraBackEnd.Api.csproj",
+        "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Services\\EmissoraBackEnd.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno Melo de Souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -276,11 +280,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj": {
-                "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj"
+              "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj": {
+                "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Aplication\\Emissora.Aplication.csproj"
               },
-              "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj": {
-                "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj"
+              "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj": {
+                "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Infrastructure.Ioc\\Emissora.Infrastructure.Ioc.csproj"
               }
             }
           }

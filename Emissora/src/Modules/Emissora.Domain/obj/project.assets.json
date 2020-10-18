@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\": {}
+    "C:\\Users\\Vagner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
       "projectName": "Emissora.Domain",
-      "projectPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
-      "packagesPath": "C:\\Users\\Bruno Melo de Souza\\.nuget\\packages\\",
-      "outputPath": "C:\\ws-vs2019\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\Emissora.Domain.csproj",
+      "packagesPath": "C:\\Users\\Vagner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vagner\\source\\repos\\EmissoraDevTop\\Emissora\\Emissora\\src\\Modules\\Emissora.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruno Melo de Souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

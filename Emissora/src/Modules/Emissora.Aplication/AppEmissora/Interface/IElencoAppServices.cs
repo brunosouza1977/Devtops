@@ -6,7 +6,7 @@ namespace Emissora.Aplication.AppEmissora.Interface
 {
      public interface IElencoAppServices
     {
-        Elenco Insert(Elencoinput usuario);
+        Elenco Insert(Elencoinput elenco);
         Elenco GetById(int id);
         IEnumerable<Elenco> Get();
         Elenco Delete(int id);
