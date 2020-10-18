@@ -1,3 +1,4 @@
+import { CadastroUsuarioService } from './../Services/cadastroUsuarioService/cadastro-usuario.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -16,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     NgbModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [CadastroUsuarioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
