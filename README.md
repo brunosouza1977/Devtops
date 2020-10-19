@@ -33,11 +33,7 @@ Nesse modelo descrito, tentamos seguir a hierarquia: camada de API chamado a App
 
 azure devops:
 
-master:
-
-https://dev.azure.com/brunomelodesouza/EmissoraDevops/_git/Devtops.git
-
-main:
+master / main:
 
 https://dev.azure.com/brunomelodesouza/EmissoraDevops/_git/Devtops.git
 
